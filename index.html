@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaTeX to Docx Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>LaTeX ➔ Word Converter</h1>
+        <p>Convert your thesis chapters to editable .docx files locally in your browser.</p>
+        
+        <textarea id="latexInput" placeholder="\section{Introduction} ..."></textarea>
+        
+        <div class="controls">
+            <button onclick="convertToDocx()">Download .docx</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
